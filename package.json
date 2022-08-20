@@ -1,0 +1,19 @@
+{
+  "name": "psafinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "graph.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gloriasingh08/PSAFinal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gloriasingh08/PSAFinal/issues"
+  },
+  "homepage": "https://github.com/gloriasingh08/PSAFinal#readme"
+}
