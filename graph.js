@@ -96,9 +96,10 @@ const graph = {
   const radius = 20;
   const margin = 10;
   
+  //function to draw the graph
   function drawGraph() {
     ct.clearRect(0, 0, canvasDes.width, canvasDes.height);
-    
+    //defining the node positions in the graph
     for (let { u, v, w } of graph.edges) {
       var position = graph.poses[u];
       var toPosition = graph.poses[v];
@@ -134,7 +135,9 @@ const graph = {
           break;
         }
       }
-  
+      
+  //defining the path and which node to traverse for finding single 
+  //shortest path 
       ct.beginPath();
       ct.moveTo(x, y);
       ct.lineTo(toX, toY);
@@ -152,6 +155,7 @@ const graph = {
       ct.textBaseline = "middle";
       ct.fillText(w, wX, wY);
     }
+    
   
     for (let v in graph.poses) {
       const { x, y } = graph.poses[v];
