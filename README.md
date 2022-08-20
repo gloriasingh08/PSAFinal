@@ -18,7 +18,8 @@ singh.gl@northeastern.edu
 ## Project description-
 ------------------------------
 
-Visualiza Bellman Ford algorithm using Javascirpt
+Visualization of Bellman Ford algorithm using Javascript.
+Write an article and create a video or teach a concept in algorithms. You MUST visualize the algorithm in some manner with animation.
 
 ## Reference
 -------------------------------
